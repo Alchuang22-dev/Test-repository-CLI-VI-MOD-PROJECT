@@ -3,6 +3,7 @@
 	<Types>
 		<Row Type="LEADER_KAZUMA" Kind="KIND_LEADER" />
 		<Row Type="LEADER_THEFT" Kind="KIND_TRAIT"/>
+		<Row Type="LEADER_LABAR" Kind="KIND_TRAIT"/>
 		<Row Type="LEADER_KITIKU" Kind="KIND_TRAIT"/>
 	</Types>
 
