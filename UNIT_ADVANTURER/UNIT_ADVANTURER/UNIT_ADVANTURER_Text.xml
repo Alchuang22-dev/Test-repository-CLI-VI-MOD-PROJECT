@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <LocalizedText>
+    <Row Tag="LOC_UNIT_ADVANTURER_NAME" Language="en_US">
+      <Text>Advanturer</Text>
+    </Row>
+
+    <!-- It's description. -->
+    <Row Tag="LOC_UNIT_ADVANTURER_DESCRIPTION" Language="en_US">
+      <Text>Normal advanturer in our world.</Text>
+    </Row>
+
+    <!-- The name of the unit. -->
+    <Row Tag="LOC_UNIT_ADVANTURER_NAME" Language="zh_Hans_CN">
+      <Text>冒险者</Text>
+    </Row>
+
+    <!-- It's description. -->
+    <Row Tag="LOC_UNIT_ADVANTURER_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>追逐赏金的冒险者，常常从啤酒中获取力量</Text>
+    </Row>
+  </LocalizedText>
+</GameData>

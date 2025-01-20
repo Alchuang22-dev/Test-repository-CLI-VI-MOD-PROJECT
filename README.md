@@ -13,17 +13,17 @@
 ### 文明特色单位：
 + 卷心菜（改编自https://steamcommunity.com/sharedfiles/filedetails/?id=3355218239）
     + name `TRAIT_CIVILIZATION_UNIT_CABBAGE`
-    + 替代勇士
-    + 防御时攻击力-2
+    + 替代勇士 
+    + 防御时攻击力-2 [M]
     + 移动力+2
     + 视野范围+1
     + 成本降低
-    + 如同抗骑兵单位般克制重骑兵
+    + 如同抗骑兵单位般克制重骑兵 [M]
 
 + 冒险者（抄袭自https://steamcommunity.com/sharedfiles/filedetails/?id=3356254418 幻想）
     + name `TRAIT_CIVILIZATION_UNIT_ADVANTURER`
     + 替代追猎者（如果不做DLC适配，待定）
-    + 击杀敌人后，获得单位战斗力100%的金币与30%的科技值与文化值
+    + 击杀敌人后，获得单位战斗力100%的金币与30%的科技值与文化值 [M]
 
 ### 特色建筑
 + 十字骑士营地
