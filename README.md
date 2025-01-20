@@ -14,9 +14,10 @@
 + 卷心菜（改编自https://steamcommunity.com/sharedfiles/filedetails/?id=3355218239）
     + name `TRAIT_CIVILIZATION_UNIT_CABBAGE`
     + 替代勇士
-    + 防御力-2
+    + 防御时攻击力-2
     + 移动力+2
     + 视野范围+1
+    + 成本降低
     + 如同抗骑兵单位般克制重骑兵
 
 + 冒险者（抄袭自https://steamcommunity.com/sharedfiles/filedetails/?id=3356254418 幻想）

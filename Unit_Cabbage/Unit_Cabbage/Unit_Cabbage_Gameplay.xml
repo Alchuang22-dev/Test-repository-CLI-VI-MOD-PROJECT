@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <!-- Almost all gameplay types should first be added to the types table. -->
+  <!-- This serves as a central way to reference any type -->
+  <Types>
+    <Row Type="UNIT_CABBAGE" Kind="KIND_UNIT" />
+  </Types>
+
+  <UnitAiInfos>
+    <Row UnitType="UNIT_CABBAGE" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_CABBAGE" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_CABBAGE" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_CABBAGE" AiType="UNITTYPE_LAND_COMBAT"/>
+  </UnitAiInfos>
+
+  <UnitReplaces>
+    <Row CivUniqueUnitType="UNIT_CABBAGE" ReplacesUnitType="UNIT_WARRIOR"/>
+  </UnitReplaces>
+
+  <TypeTags>
+    <Row Type="UNIT_CABBAGE" Tag="CLASS_MELEE"/>
+  </TypeTags>
+
+  <!-- Define the actual unit here. For examples of additional properties and values, look at Units.xml in /Base/Assets/Gameplay/Data/-->
+  <Units>
+  <!--<Row UnitType="UNIT_WARRIOR" 
+  Cost="40" 
+  BaseMoves="2" 
+  BaseSightRange="2" 
+  ZoneOfControl="true" 
+  Domain="DOMAIN_LAND" 
+  Combat="20" 
+  FormationClass="FORMATION_CLASS_LAND_COMBAT" 
+  PromotionClass="PROMOTION_CLASS_MELEE" 
+  AdvisorType="ADVISOR_CONQUEST" 
+  Name="LOC_UNIT_WARRIOR_NAME" 
+  Description="LOC_UNIT_WARRIOR_DESCRIPTION"
+  PurchaseYield="YIELD_GOLD" 
+  MandatoryObsoleteTech="TECH_GUNPOWDER"
+  TraitType="..."/>-->
+  <Row UnitType="UNIT_CABBAGE" 
+  Cost="30" 
+  BaseMoves="4" 
+  BaseSightRange="3" 
+  ZoneOfControl="true" 
+  Domain="DOMAIN_LAND" 
+  Combat="20" 
+  FormationClass="FORMATION_CLASS_LAND_COMBAT" 
+  PromotionClass="PROMOTION_CLASS_MELEE" 
+  AdvisorType="ADVISOR_CONQUEST" 
+  Name="LOC_UNIT_CABBAGE_NAME" 
+  Description="LOC_UNIT_CABBAGE_DESCRIPTION"
+  PurchaseYield="YIELD_GOLD" 
+  MandatoryObsoleteTech="TECH_GUNPOWDER"
+  TraitType="..."
+  />
+  </Units>
+
+  <UnitUpgrades>
+    <Row Unit="UNIT_CABBAGE" UpgradeUnit="UNIT_SWORDSMAN"/>
+  </UnitUpgrades>
+</GameData>

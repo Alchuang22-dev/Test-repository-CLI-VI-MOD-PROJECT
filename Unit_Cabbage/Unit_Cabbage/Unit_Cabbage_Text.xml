@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <LocalizedText>
+    <!-- The name of the unit. -->
+    <Row Tag="LOC_UNIT_CABBAGE_NAME" Language="en_US">
+      <Text>Cabbage</Text>
+    </Row>
+
+    <!-- It's description. -->
+    <Row Tag="LOC_UNIT_CABBAGE_DESCRIPTION" Language="en_US">
+      <Text>Delicious Vegetable.</Text>
+    </Row>
+
+    <!-- The name of the unit. -->
+    <Row Tag="LOC_UNIT_CABBAGE_NAME" Language="zh_Hans_CN">
+      <Text>卷心菜</Text>
+    </Row>
+
+    <!-- It's description. -->
+    <Row Tag="LOC_UNIT_CABBAGE_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>或许是在异世界常见的蔬菜。使用冲撞面对试图收获自己的人。</Text>
+    </Row>
+  </LocalizedText>
+</GameData>
