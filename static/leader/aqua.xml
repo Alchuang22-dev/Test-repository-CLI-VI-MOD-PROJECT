@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameData>
+    <IconTextureAtlases>
+        <Row Name="ATLAS_thumb-aqua" IconSize="32" Filename="thumb-aqua_32"/>
+        <Row Name="ATLAS_thumb-aqua" IconSize="45" Filename="thumb-aqua_45"/>
+        <Row Name="ATLAS_thumb-aqua" IconSize="48" Filename="thumb-aqua_48"/>
+        <Row Name="ATLAS_thumb-aqua" IconSize="50" Filename="thumb-aqua_50"/>
+        <Row Name="ATLAS_thumb-aqua" IconSize="55" Filename="thumb-aqua_55"/>
+        <Row Name="ATLAS_thumb-aqua" IconSize="64" Filename="thumb-aqua_64"/>
+        <Row Name="ATLAS_thumb-aqua" IconSize="80" Filename="thumb-aqua_80"/>
+        <Row Name="ATLAS_thumb-aqua" IconSize="256" Filename="thumb-aqua_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_0" Atlas="ATLAS_thumb-aqua" Index="0"/>
+    </IconDefinitions>
+</GameData>

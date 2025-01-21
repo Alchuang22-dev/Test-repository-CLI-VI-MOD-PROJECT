@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameData>
+    <IconTextureAtlases>
+        <Row Name="ATLAS_thumb-megumin" IconSize="32" Filename="thumb-megumin_32"/>
+        <Row Name="ATLAS_thumb-megumin" IconSize="45" Filename="thumb-megumin_45"/>
+        <Row Name="ATLAS_thumb-megumin" IconSize="48" Filename="thumb-megumin_48"/>
+        <Row Name="ATLAS_thumb-megumin" IconSize="50" Filename="thumb-megumin_50"/>
+        <Row Name="ATLAS_thumb-megumin" IconSize="55" Filename="thumb-megumin_55"/>
+        <Row Name="ATLAS_thumb-megumin" IconSize="64" Filename="thumb-megumin_64"/>
+        <Row Name="ATLAS_thumb-megumin" IconSize="80" Filename="thumb-megumin_80"/>
+        <Row Name="ATLAS_thumb-megumin" IconSize="256" Filename="thumb-megumin_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_0" Atlas="ATLAS_thumb-megumin" Index="0"/>
+    </IconDefinitions>
+</GameData>

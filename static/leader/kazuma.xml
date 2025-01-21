@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<GameData>
+    <IconTextureAtlases>
+        <Row Name="ATLAS_thumb-kazuma" IconSize="32" Filename="thumb-kazuma_32"/>
+        <Row Name="ATLAS_thumb-kazuma" IconSize="45" Filename="thumb-kazuma_45"/>
+        <Row Name="ATLAS_thumb-kazuma" IconSize="48" Filename="thumb-kazuma_48"/>
+        <Row Name="ATLAS_thumb-kazuma" IconSize="50" Filename="thumb-kazuma_50"/>
+        <Row Name="ATLAS_thumb-kazuma" IconSize="55" Filename="thumb-kazuma_55"/>
+        <Row Name="ATLAS_thumb-kazuma" IconSize="64" Filename="thumb-kazuma_64"/>
+        <Row Name="ATLAS_thumb-kazuma" IconSize="80" Filename="thumb-kazuma_80"/>
+        <Row Name="ATLAS_thumb-kazuma" IconSize="256" Filename="thumb-kazuma_256"/>
+    </IconTextureAtlases>
+    <IconDefinitions>
+        <Row Name="ICON_0" Atlas="ATLAS_thumb-kazuma" Index="0"/>
+    </IconDefinitions>
+</GameData>
