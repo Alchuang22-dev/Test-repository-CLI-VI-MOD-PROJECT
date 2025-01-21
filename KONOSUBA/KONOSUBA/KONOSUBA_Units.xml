@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<!-- Almost all gameplay types should first be added to the types table. -->
+	<!-- This serves as a central way to reference any type -->
+	<Types>
+		<Row Type="UNIT_CABBAGE" Kind="KIND_UNIT" />
+	</Types>
+
+	<UnitAiInfos>
+		<Row UnitType="UNIT_CABBAGE" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_CABBAGE" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_CABBAGE" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_CABBAGE" AiType="UNITTYPE_LAND_COMBAT"/>
+	</UnitAiInfos>
+
+	<UnitReplaces>
+		<Row CivUniqueUnitType="UNIT_CABBAGE" ReplacesUnitType="UNIT_WARRIOR"/>
+	</UnitReplaces>
+
+	<TypeTags>
+		<Row Type="UNIT_CABBAGE" Tag="CLASS_MELEE"/>
+	</TypeTags>
+
+	<!-- Define the actual unit here. For examples of additional properties and values, look at Units.xml in /Base/Assets/Gameplay/Data/-->
+	<Units>
+		<!--<Row UnitType="UNIT_WARRIOR" 
+  Cost="40" 
+  BaseMoves="2" 
+  BaseSightRange="2" 
+  ZoneOfControl="true" 
+  Domain="DOMAIN_LAND" 
+  Combat="20" 
+  FormationClass="FORMATION_CLASS_LAND_COMBAT" 
+  PromotionClass="PROMOTION_CLASS_MELEE" 
+  AdvisorType="ADVISOR_CONQUEST" 
+  Name="LOC_UNIT_WARRIOR_NAME" 
+  Description="LOC_UNIT_WARRIOR_DESCRIPTION"
+  PurchaseYield="YIELD_GOLD" 
+  MandatoryObsoleteTech="TECH_GUNPOWDER"
+  TraitType="..."/>-->
+		<Row UnitType="UNIT_CABBAGE"
+		Cost="30"
+		BaseMoves="4"
+		BaseSightRange="3"
+		ZoneOfControl="true"
+		Domain="DOMAIN_LAND"
+		Combat="20"
+		FormationClass="FORMATION_CLASS_LAND_COMBAT"
+		PromotionClass="PROMOTION_CLASS_MELEE"
+		AdvisorType="ADVISOR_CONQUEST"
+		Name="LOC_UNIT_CABBAGE_NAME"
+		Description="LOC_UNIT_CABBAGE_DESCRIPTION"
+		PurchaseYield="YIELD_GOLD"
+		MandatoryObsoleteTech="TECH_GUNPOWDER"
+		TraitType="TRAIT_UNIT_CABBAGE"
+  />
+	</Units>
+
+	<UnitUpgrades>
+		<Row Unit="UNIT_CABBAGE" UpgradeUnit="UNIT_SWORDSMAN"/>
+	</UnitUpgrades>
+	<!-- Almost all gameplay types should first be added to the types table. -->
+	<!-- This serves as a central way to reference any type -->
+	<Types>
+		<Row Type="UNIT_ADVANTURER" Kind="KIND_UNIT" />
+	</Types>
+
+	<UnitAiInfos>
+		<Row UnitType="UNIT_ADVANTURER" AiType="UNITAI_COMBAT"/>
+		<Row UnitType="UNIT_ADVANTURER" AiType="UNITAI_EXPLORE"/>
+		<Row UnitType="UNIT_ADVANTURER" AiType="UNITTYPE_CAVALRY"/>
+		<Row UnitType="UNIT_ADVANTURER" AiType="UNITTYPE_MELEE"/>
+		<Row UnitType="UNIT_ADVANTURER" AiType="UNITTYPE_LAND_COMBAT"/>
+	</UnitAiInfos>
+
+	<UnitReplaces>
+		<Row CivUniqueUnitType="UNIT_ADVANTURER" ReplacesUnitType="UNIT_HORSEMAN"/>
+	</UnitReplaces>
+
+	<TypeTags>
+		<Row Type="UNIT_ADVANTURER" Tag="CLASS_LIGHT_CAVALRY"/>
+	</TypeTags>
+
+	<!-- Define the actual unit here. For examples of additional properties and values, look at Units.xml in /Base/Assets/Gameplay/Data/-->
+	<Units>
+		<Row
+		UnitType="UNIT_HORSEMAN"
+		Cost="80"
+		Maintenance="2"
+		BaseMoves="4"
+		BaseSightRange="2"
+		ZoneOfControl="true"
+		Domain="DOMAIN_LAND"
+		Combat="36"
+		StrategicResource="RESOURCE_HORSES"
+		FormationClass="FORMATION_CLASS_LAND_COMBAT"
+		PromotionClass="PROMOTION_CLASS_LIGHT_CAVALRY"
+		AdvisorType="ADVISOR_CONQUEST"
+		Name="LOC_UNIT_HORSEMAN_NAME"
+		Description="LOC_UNIT_HORSEMAN_DESCRIPTION"
+		PurchaseYield="YIELD_GOLD"
+		MandatoryObsoleteTech="TECH_SYNTHETIC_MATERIALS"
+		PrereqTech="TECH_HORSEBACK_RIDING"
+    />
+	</Units>
+
+	<UnitUpgrades>
+		<Row Unit="UNIT_ADVANTURER" UpgradeUnit="UNIT_CAVALRY"/>
+	</UnitUpgrades>
+
+	<UnitAbilities>
+		<Row UnitAbilityType="ABILITY_UNIT_ADVANTURER" Name="LOC_ABILITY_UNIT_ADVANTURER_NAME" Description="LOC_ABILITY_UNIT_ADVANTURER_DESCRIPTION"/>
+		<Row UnitAbilityType="ABILITY_ADJUST_COMBAT_STRENGTH_FROM_ADVANTURER" Name="LOC_ABILITY_ADJUST_COMBAT_STRENGTH_FROM_ADVANTURER_NAME" Description="LOC_ABILITY_ADJUST_COMBAT_STRENGTH_FROM_ADVANTURER_DESCRIPTION" Inactive="True"/>
+	</UnitAbilities>
+
+	<UnitAbilityModifiers>
+		<Row>
+			<UnitAbilityType>ABILITY_UNIT_ADVANTURER</UnitAbilityType>
+			<ModifierId>MODIFIER_UNIT_ADVANTURER</ModifierId>
+		</Row>
+		<Row>
+			<UnitAbilityType>ABILITY_ADJUST_COMBAT_STRENGTH_FROM_ADVANTURER</UnitAbilityType>
+			<ModifierId>MODIFIER_ADJUST_COMBAT_STRENGTH_FROM_ADVANTURER</ModifierId>
+		</Row>
+	</UnitAbilityModifiers>
+</GameData>

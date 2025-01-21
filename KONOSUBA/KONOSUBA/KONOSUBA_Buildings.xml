@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- GameData1 -->
+<!-- Author: 25848 -->
+<!-- DateCreated: 1/21/2025 2:35:02 PM -->
+<GameData>
+    <!--Building: campsite-->
+    <type>
+        <Row Type="BUILDING_CAMPSITE" Kind="KIND_BUILDING"/>
+    </type>
+
+    <Buildings>
+        <Row 
+        BuildingType="BUILDING_CAMPSITE" 
+        Name="LOC_BUILDING_CAMPSITE_NAME" 
+        Description="LOC_BUILDING_CAMPSITE_DESCRIPTION" 
+        PrereqTech="TECH_WRITING" 
+        PrereqDistrict="DISTRICT_ENCAMPMENT"  
+        PurchaseYield="YIELD_GOLD" 
+        Cost="75" 
+        AdvisorType="ADVISOR_CONQUEST" 
+        Maintenance="2" 
+        CitizenSlots="1" 
+        Housing="2"
+        TraitType="TRAIT_BUILDING_CAMPSITE"/>
+    </Buildings>
+
+</GameData>

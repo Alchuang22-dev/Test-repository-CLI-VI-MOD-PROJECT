@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- GameData1 -->
+<!-- Author: 25848 -->
+<!-- DateCreated: 1/21/2025 2:32:30 PM -->
+<GameData>
+    <Types>
+        <Row Type="CIVILIZATION_KONOSUBA" Kind="KIND_CIVILIZATION" />
+		<Row Type="TRAIT_CIVILIZATION_FORTUNE" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_NEWSTART" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_UNIT_ADVANTURER" Kind="KIND_TRAIT" />
+		<Row Type="TRAIT_UNIT_CABBAGE" Kind="KIND_TRAIT" />
+        <Row Type="TRAIT_BUILDING_CAMPSITE" Kind="KIND_TRAIT" />
+		<Row Type="TRAIT_BUILDING_ADVANTURE_ASSOCIATION" Kind="KIND_TRAIT" />
+    </Types>
+    <Civilizations>
+        <Row CivilizationType="CIVILIZATION_KONOSUBA" 
+        Name="LOC_CIVILIZATION_KONOSUBA_NAME" 
+        Description="LOC_CIVILIZATION_KONOSUBA_DESCRIPTION" 
+        Adjective="LOC_CIVILIZATION_KONOSUBA_ADJECTIVE" 
+        StartingCivilizationLevelType="CIVILIZATION_LEVEL_FULL_CIV" 
+        RandomCityNameDepth="10" 
+        Ethnicity="ETHNICITY_EURO"/>
+    </Civilizations>
+    <CivilizationLeaders>
+        <Row 
+        CivilizationType="CIVILIZATION_AMERICA" 
+        LeaderType="LEADER_KAZUMA" 
+        CapitalName="LOC_CITY_NAME_AMATEURVILLAGE"/>
+        <Row 
+        CivilizationType="CIVILIZATION_AMERICA" 
+        LeaderType="LEADER_AQUA" 
+        CapitalName="LOC_CITY_NAME_AMATEURVILLAGE"/>
+        <Row 
+        CivilizationType="CIVILIZATION_AMERICA" 
+        LeaderType="LEADER_MEGUMIN" 
+        CapitalName="LOC_CITY_NAME_AMATEURVILLAGE"/>
+        <Row 
+        CivilizationType="CIVILIZATION_AMERICA" 
+        LeaderType="LEADER_DARKNESS" 
+        CapitalName="LOC_CITY_NAME_AMATEURVILLAGE"/>
+    </CivilizationLeaders>
+    <Traits>
+        <Row TraitType="TRAIT_CIVILIZATION_FORTUNE" 
+        Name="LOC_TRAIT_CIVILIZATION_FORTUNE_NAME"
+        Description="LOC_TRAIT_CIVILIZATION_FORTUNE_DESCRIPTION"/>
+        <Row TraitType="TRAIT_CIVILIZATION_NEWSTART" 
+        Name="LOC_TRAIT_CIVILIZATION_NEWSTART_NAME"
+        Description="LOC_TRAIT_CIVILIZATION_NEWSTART_DESCRIPTION"/>
+        <Row TraitType="TRAIT_UNIT_ADVANTURER" 
+        Name="LOC_TRAIT_UNIT_ADVANTURER_NAME"
+        Description="LOC_TRAIT_UNIT_ADVANTURER_DESCRIPTION"/>
+        <Row TraitType="TRAIT_UNIT_CABBAGE" 
+        Name="LOC_TRAIT_UNIT_CABBAGE_NAME"
+        Description="LOC_TRAIT_UNIT_CABBAGE_DESCRIPTION"/>
+        <Row TraitType="TRAIT_BUILDING_CAMPSITE" 
+        Name="LOC_TRAIT_BUILDING_CAMPSITE_NAME"
+        Description="LOC_TRAIT_BUILDING_CAMPSITE_DESCRIPTION"/>
+        <Row TraitType="TRAIT_BUILDING_ADVANTURE_ASSOCIATION" 
+        Name="LOC_TRAIT_BUILDING_ADVANTURE_ASSOCIATION_NAME"
+        Description="LOC_TRAIT_BUILDING_ADVANTURE_ASSOCIATION_DESCRIPTION"/>
+    </Traits>
+</GameData>
