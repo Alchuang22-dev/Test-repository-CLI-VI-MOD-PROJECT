@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- KONOSUBA_Text -->
+<!-- Author: 25848 -->
+<!-- DateCreated: 1/21/2025 5:37:59 PM -->
+<GameData>
+    <!-- The name of the unit. -->
+    <Replace Tag="LOC_UNIT_CABBAGE_NAME" Language="en_US">
+      <Text>Cabbage</Text>
+    </Replace>
+
+    <!-- It's description. -->
+    <Replace Tag="LOC_UNIT_CABBAGE_DESCRIPTION" Language="en_US">
+      <Text>Delicious Vegetable.</Text>
+    </Replace>
+
+    <!-- The name of the unit. -->
+    <Replace Tag="LOC_UNIT_CABBAGE_NAME" Language="zh_Hans_CN">
+      <Text>卷心菜</Text>
+    </Replace>
+
+    <!-- It's description. -->
+    <Replace Tag="LOC_UNIT_CABBAGE_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>或许是在异世界常见的蔬菜。使用冲撞面对试图收获自己的人。</Text>
+    </Replace>
+
+    <Replace Tag="LOC_UNIT_ADVANTURER_NAME" Language="en_US">
+      <Text>Advanturer</Text>
+    </Replace>
+
+    <!-- It's description. -->
+    <Replace Tag="LOC_UNIT_ADVANTURER_DESCRIPTION" Language="en_US">
+      <Text>Normal advanturer in our world.</Text>
+    </Replace>
+
+    <!-- The name of the unit. -->
+    <Replace Tag="LOC_UNIT_ADVANTURER_NAME" Language="zh_Hans_CN">
+      <Text>冒险者</Text>
+    </Replace>
+
+    <!-- It's description. -->
+    <Replace Tag="LOC_UNIT_ADVANTURER_DESCRIPTION" Language="zh_Hans_CN">
+      <Text>追逐赏金的冒险者，常常从啤酒中获取力量</Text>
+    </Replace>
+</GameData>

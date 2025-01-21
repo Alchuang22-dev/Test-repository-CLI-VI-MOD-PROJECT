@@ -10,7 +10,7 @@
 		<Row Type="TRAIT_UNIT_ADVANTURER" Kind="KIND_TRAIT" />
 		<Row Type="TRAIT_UNIT_CABBAGE" Kind="KIND_TRAIT" />
         <Row Type="TRAIT_BUILDING_CAMPSITE" Kind="KIND_TRAIT" />
-		<Row Type="TRAIT_BUILDING_ADVANTURE_ASSOCIATION" Kind="KIND_TRAIT" />
+		<Row Type="TRAIT_BUILDING_GUILD" Kind="KIND_TRAIT" />
     </Types>
     <Civilizations>
         <Row CivilizationType="CIVILIZATION_KONOSUBA" 
@@ -23,21 +23,21 @@
     </Civilizations>
     <CivilizationLeaders>
         <Row 
-        CivilizationType="CIVILIZATION_AMERICA" 
+        CivilizationType="CIVILIZATION_KONOSUBA" 
         LeaderType="LEADER_KAZUMA" 
-        CapitalName="LOC_CITY_NAME_AMATEURVILLAGE"/>
+        CapitalName="LOC_CITY_NAME_AKUSEL"/>
         <Row 
-        CivilizationType="CIVILIZATION_AMERICA" 
+        CivilizationType="CIVILIZATION_KONOSUBA" 
         LeaderType="LEADER_AQUA" 
-        CapitalName="LOC_CITY_NAME_AMATEURVILLAGE"/>
+        CapitalName="LOC_CITY_NAME_AKUSEL"/>
         <Row 
-        CivilizationType="CIVILIZATION_AMERICA" 
+        CivilizationType="CIVILIZATION_KONOSUBA" 
         LeaderType="LEADER_MEGUMIN" 
-        CapitalName="LOC_CITY_NAME_AMATEURVILLAGE"/>
+        CapitalName="LOC_CITY_NAME_AKUSEL"/>
         <Row 
-        CivilizationType="CIVILIZATION_AMERICA" 
+        CivilizationType="CIVILIZATION_KONOSUBA" 
         LeaderType="LEADER_DARKNESS" 
-        CapitalName="LOC_CITY_NAME_AMATEURVILLAGE"/>
+        CapitalName="LOC_CITY_NAME_AKUSEL"/>
     </CivilizationLeaders>
     <Traits>
         <Row TraitType="TRAIT_CIVILIZATION_FORTUNE" 
@@ -55,8 +55,59 @@
         <Row TraitType="TRAIT_BUILDING_CAMPSITE" 
         Name="LOC_TRAIT_BUILDING_CAMPSITE_NAME"
         Description="LOC_TRAIT_BUILDING_CAMPSITE_DESCRIPTION"/>
-        <Row TraitType="TRAIT_BUILDING_ADVANTURE_ASSOCIATION" 
-        Name="LOC_TRAIT_BUILDING_ADVANTURE_ASSOCIATION_NAME"
-        Description="LOC_TRAIT_BUILDING_ADVANTURE_ASSOCIATION_DESCRIPTION"/>
+        <Row TraitType="TRAIT_BUILDING_GUILD" 
+        Name="LOC_TRAIT_BUILDING_GUILD_NAME"
+        Description="LOC_TRAIT_BUILDING_GUILD_DESCRIPTION"/>
     </Traits>
+    <CivilizationTraits>
+        <Row CivilizationType="CIVILIZATION_KONOSUBA"
+        TraitType="TRAIT_CIVILIZATION_FORTUNE"/>
+        <Row CivilizationType="CIVILIZATION_KONOSUBA"
+        TraitType="TRAIT_CIVILIZATION_NEWSTART"/>
+        <Row CivilizationType="CIVILIZATION_KONOSUBA"
+        TraitType="TRAIT_UNIT_ADVANTURER"/>
+        <Row CivilizationType="CIVILIZATION_KONOSUBA"
+        TraitType="TRAIT_UNIT_CABBAGE"/>
+        <Row CivilizationType="CIVILIZATION_KONOSUBA"
+        TraitType="TRAIT_BUILDING_CAMPSITE"/>
+        <Row CivilizationType="CIVILIZATION_KONOSUBA"
+        TraitType="TRAIT_BUILDING_GUILD"/>
+    </CivilizationTraits>
+    <CityNames>
+        <Row CivilizationType="CIVILIZATION_KONOSUBA" CityName="LOC_CITY_NAME_AKUSEL"/>
+		<Row CivilizationType="CIVILIZATION_KONOSUBA" CityName="LOC_CITY_NAME_ALUKALETIA"/>
+		<Row CivilizationType="CIVILIZATION_KONOSUBA" CityName="LOC_CITY_NAME_REDPORISON"/>
+		<Row CivilizationType="CIVILIZATION_KONOSUBA" CityName="LOC_CITY_NAME_BOSTON"/>
+		<Row CivilizationType="CIVILIZATION_KONOSUBA" CityName="LOC_CITY_NAME_BALTIMORE"/>
+		<Row CivilizationType="CIVILIZATION_KONOSUBA" CityName="LOC_CITY_NAME_CHARLESTON"/>
+		<Row CivilizationType="CIVILIZATION_KONOSUBA" CityName="LOC_CITY_NAME_NEW_ORLEANS"/>
+		<Row CivilizationType="CIVILIZATION_KONOSUBA" CityName="LOC_CITY_NAME_CINCINNATI"/>
+		<Row CivilizationType="CIVILIZATION_KONOSUBA" CityName="LOC_CITY_NAME_LOS_ANGELES"/>
+		<Row CivilizationType="CIVILIZATION_KONOSUBA" CityName="LOC_CITY_NAME_ST_LOUIS"/>
+		<Row CivilizationType="CIVILIZATION_KONOSUBA" CityName="LOC_CITY_NAME_CHICAGO"/>
+    </CityNames>
+    <!--colorstyle-->
+    <Colors>
+        <Row>
+            <Type>COLOR_PLAYER_KONOSUBA_PRIMARY</Type>
+            <Color>244,244,244,255</Color>
+        </Row>
+        <Row>
+            <Type>COLOR_PLAYER_KONOSUBA_SECONDARY</Type>
+            <Color>0,0,0,255</Color>
+        </Row>
+    </Colors>
+    <PlayerColors>
+        <Row>
+            <Type>LEADER_KAZUMA</Type>
+            <Usage>Unique</Usage>
+            <PrimaryColor>COLOR_PLAYER_KONOSUBA_PRIMARY</PrimaryColor>
+            <SecondaryColor>COLOR_PLAYER_KONOSUBA_SECONDARY</SecondaryColor>
+            <TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
+        </Row>
+    </PlayerColors>
+    <LoadingInfo>
+    </LoadingInfo>
+    <DiplomacyInfo>
+    </DiplomacyInfo>
 </GameData>

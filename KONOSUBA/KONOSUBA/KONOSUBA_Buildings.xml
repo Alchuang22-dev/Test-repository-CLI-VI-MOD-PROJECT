@@ -6,6 +6,7 @@
     <!--Building: campsite-->
     <type>
         <Row Type="BUILDING_CAMPSITE" Kind="KIND_BUILDING"/>
+        <Row Type="BUILDING_GUILD" Kind="KIND_BUILDING"/>
     </type>
 
     <Buildings>
@@ -22,6 +23,19 @@
         CitizenSlots="1" 
         Housing="2"
         TraitType="TRAIT_BUILDING_CAMPSITE"/>
+        <Row 
+        BuildingType="BUILDING_GUILD" 
+        Name="LOC_BUILDING_GUILD_NAME" 
+        PrereqCivic="CIVIC_GAMES_RECREATION" 
+        PrereqDistrict="DISTRICT_ENTERTAINMENT_COMPLEX" 
+        PurchaseYield="YIELD_GOLD" 
+        Cost="120" 
+        AdvisorType="ADVISOR_GENERIC" 
+        Maintenance="1" 
+        Entertainment="4"
+        Housing="2"
+        OuterDefenseHitPoints="100" 
+        OuterDefenseStrength="3"/>
     </Buildings>
 
 </GameData>
