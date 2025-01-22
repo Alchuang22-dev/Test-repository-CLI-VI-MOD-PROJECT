@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- KONOSUBA_Leaders -->
+<!-- Author: 25848 -->
+<!-- DateCreated: 1/21/2025 2:34:04 PM -->
+<GameData>
+
+    <Types>
+        <Row Type="LEADER_KAZUMA" Kind="KIND_LEADER"/>
+    </Types>
+
+    <Leaders>
+        <Row 
+        LeaderType="LEADER_KAZUMA" 
+        Name="LOC_LEADER_KAZUMA_NAME" 
+        InheritFrom="LEADER_DEFAULT" 
+        SceneLayers="4"/>
+    </Leaders>
+
+    <LeaderQuotes>
+        <Row 
+        LeaderType="LEADER_KAZUMA" 
+        Quote="LOC_PEDIA_LEADERS_PAGE_LEADER_KAZUMA_QUOTE" 
+        QuoteAudio="Play_LEADER_KAZUMA_TALK"/>
+    </LeaderQuotes>
+
+    <LeaderTraits>
+
+    </LeaderTraits>
+</GameData>

@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- GameData1 -->
+<!-- Author: 25848 -->
+<!-- DateCreated: 1/21/2025 2:32:59 PM -->
+<GameInfo>
+    <Players>
+		<Row 
+        CivilizationType="CIVILIZATION_KONOSUBA" 
+        LeaderType="LEADER_KAZUMA" 
+        CivilizationName="LOC_CIVILIZATION_KONOSUBA_NAME" 
+        CivilizationIcon="ICON_CIVILIZATION_KONOSUBA" 
+        LeaderName="LOC_LEADER_KAZUMA_NAME" 
+        LeaderIcon="ICON_LEADER_KAZUMA" 
+        CivilizationAbilityName="LOC_TRAIT_CIVILIZATION_LEGEND_FIVE_SUNS_NAME" 
+        CivilizationAbilityDescription="LOC_TRAIT_CIVILIZATION_LEGEND_FIVE_SUNS_DESCRIPTION" 
+        CivilizationAbilityIcon="ICON_CIVILIZATION_KONOSUBA" 
+        LeaderAbilityName="LOC_TRAIT_LEADER_GIFTS_FOR_TLATOANI_NAME" 
+        LeaderAbilityDescription="LOC_TRAIT_LEADER_GIFTS_FOR_TLATOANI_DESCRIPTION" 
+        LeaderAbilityIcon="ICON_LEADER_KAZUMA"
+        Portrait=""/>
+		<!-- Expansion 1 Support -->
+		<Row 
+        Domain="Players:Expansion1_Players" 
+        CivilizationType="CIVILIZATION_KONOSUBA" 
+        LeaderType="LEADER_KAZUMA" 
+        CivilizationName="LOC_CIVILIZATION_KONOSUBA_NAME" 
+        CivilizationIcon="ICON_CIVILIZATION_KONOSUBA" 
+        LeaderName="LOC_LEADER_KAZUMA_NAME" 
+        LeaderIcon="ICON_LEADER_KAZUMA" 
+        CivilizationAbilityName="LOC_TRAIT_CIVILIZATION_LEGEND_FIVE_SUNS_NAME" 
+        CivilizationAbilityDescription="LOC_TRAIT_CIVILIZATION_LEGEND_FIVE_SUNS_DESCRIPTION" 
+        CivilizationAbilityIcon="ICON_CIVILIZATION_KONOSUBA" 
+        LeaderAbilityName="LOC_TRAIT_LEADER_GIFTS_FOR_TLATOANI_NAME" 
+        LeaderAbilityDescription="LOC_TRAIT_LEADER_GIFTS_FOR_TLATOANI_DESCRIPTION" 
+        LeaderAbilityIcon="ICON_LEADER_KAZUMA"
+        Portrait=""/>
+		<!-- Expansion 2 Support -->
+		<Row 
+        Domain="Players:Expansion2_Players"
+        CivilizationType="CIVILIZATION_KONOSUBA" 
+        LeaderType="LEADER_KAZUMA" 
+        CivilizationName="LOC_CIVILIZATION_KONOSUBA_NAME" 
+        CivilizationIcon="ICON_CIVILIZATION_KONOSUBA" 
+        LeaderName="LOC_LEADER_KAZUMA_NAME" 
+        LeaderIcon="ICON_LEADER_KAZUMA" 
+        CivilizationAbilityName="LOC_TRAIT_CIVILIZATION_LEGEND_FIVE_SUNS_NAME" 
+        CivilizationAbilityDescription="LOC_TRAIT_CIVILIZATION_LEGEND_FIVE_SUNS_DESCRIPTION" 
+        CivilizationAbilityIcon="ICON_CIVILIZATION_KONOSUBA" 
+        LeaderAbilityName="LOC_TRAIT_LEADER_GIFTS_FOR_TLATOANI_NAME" 
+        LeaderAbilityDescription="LOC_TRAIT_LEADER_GIFTS_FOR_TLATOANI_DESCRIPTION" 
+        LeaderAbilityIcon="ICON_LEADER_KAZUMA"
+        Portrait=""/>
+	</Players>
+    <PlayerItems>
+		<Row CivilizationType="CIVILIZATION_KONOSUBA" LeaderType="LEADER_KAZUMA" Type="UNIT_KONOSUBA_CABBAGE" Icon="ICON_UNIT_KONOSUBA_CABBAGE" Name="LOC_UNIT_KONOSUBA_CABBAGE_NAME" Description="LOC_UNIT_KONOSUBA_CABBAGE_DESCRIPTION" SortIndex="10"/>
+		<Row CivilizationType="CIVILIZATION_KONOSUBA" LeaderType="LEADER_KAZUMA" Type="BUILDING_GUILD" Icon="ICON_BUILDING_GUILD" Name="LOC_BUILDING_GUILD_NAME" Description="LOC_BUILDING_GUILD_DESCRIPTION" SortIndex="20"/>
+        
+		<!-- Expansion 1 Support -->
+		<Row Domain="Players:Expansion1_Players" CivilizationType="CIVILIZATION_KONOSUBA" LeaderType="LEADER_KAZUMA" Type="UNIT_KONOSUBA_CABBAGE" Icon="ICON_UNIT_KONOSUBA_CABBAGE" Name="LOC_UNIT_KONOSUBA_CABBAGE_NAME" Description="LOC_UNIT_KONOSUBA_CABBAGE_DESCRIPTION" SortIndex="10"/>
+		<Row Domain="Players:Expansion1_Players" CivilizationType="CIVILIZATION_KONOSUBA" LeaderType="LEADER_KAZUMA" Type="BUILDING_GUILD" Icon="ICON_BUILDING_GUILD" Name="LOC_BUILDING_GUILD_NAME" Description="LOC_BUILDING_GUILD_XP1_DESCRIPTION" SortIndex="20"/>
+        
+		<!-- Expansion 2 Support -->
+		<Row Domain="Players:Expansion2_Players" CivilizationType="CIVILIZATION_KONOSUBA" LeaderType="LEADER_KAZUMA" Type="UNIT_KONOSUBA_CABBAGE" Icon="ICON_UNIT_KONOSUBA_CABBAGE" Name="LOC_UNIT_KONOSUBA_CABBAGE_NAME" Description="LOC_UNIT_KONOSUBA_CABBAGE_DESCRIPTION" SortIndex="10"/>
+		<Row Domain="Players:Expansion2_Players" CivilizationType="CIVILIZATION_KONOSUBA" LeaderType="LEADER_KAZUMA" Type="BUILDING_GUILD" Icon="ICON_BUILDING_GUILD" Name="LOC_BUILDING_GUILD_NAME" Description="LOC_BUILDING_GUILD_XP1_DESCRIPTION" SortIndex="20"/>
+	</PlayerItems>
+</GameInfo>
